@@ -1,0 +1,22 @@
+{
+    "name": "wikibase/search",
+    "description": "Entity search interfaces for Wikibase",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Katie Filbert",
+            "email": "aude.wiki@gmail.com"
+        }
+    ],
+    "require": {
+        "wikibase/data-model": "~6.0",
+        "ruflin/elastica": "~2.3",
+        "wikimedia/assert": "^0.2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wikibase\\Search\\": "src"
+        }
+    }
+}
